@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.bridje"
+    tools:ignore="GoogleAppIndexingWarning">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/bridgeiconround"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".reorderActivity"
+            android:label="@string/title_activity_reorder"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".cgpaActivity" />
+        <activity android:name=".ExamScheduleActivity" />
+        <activity android:name=".messagingActivity" />
+        <activity android:name=".Study_Material_Activity" />
+        <activity android:name=".attendance_activity" />
+        <activity android:name=".exlpore_Activity" />
+        <activity android:name=".Event_Activity" />
+        <activity android:name=".Home_Activity" />
+        <activity android:name=".SigninActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".splashScreenActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
