@@ -1,2 +1,2 @@
 # bridJe
-It is an Android Based mobile app which serves as a one stop solution to a student's college related woes.
+I've added the com.example.bridje files from the app directory to provide you all with a layman view of fundamental code for the activities. A separate manifest file along with the "un-alterable" R.java is provided in case you're having some problems running yours. I've added a compressed zip for the Gradle files and other formalities. You can always ask me for the complete code if you're interested.
